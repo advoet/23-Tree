@@ -8,15 +8,20 @@ The program is run from RedBlackTree.java and takes command line input to insert
 COMMAND LINE INTERFACE:
 
 Press 1 to insert
+
 Press 2 to print DFS
+
 Press 3 to print BFS
+
 Press 4 to clear tree
+
 Press 5 to quit
+
 
 SAMPLE OUTPUT FOR BFS:
 
 -2  
-[-8,-5]  4  
--9  -7  [-4,-3]  2  [5,7]
+[-8,-5]   4  
+-9   -7   [-4,-3]   2   [5,7]
 
 Here -2 is the root. Its left child is -5 which has a RED left child with key -8. This gets printed as a node with 2 keys and 3 children to show the balance of the tree. The black distance from root to leaf is constant on any path, and the total distance is at most 2*black distance as no red node has a red child.
